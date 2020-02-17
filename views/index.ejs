@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Docu Sign Demo</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+	
+	<div class="container">
+		<h2 class="text-center">Testing DocuSign API</h2>
+		<br/>
+		<form action="/signTemp">
+		  <div class="form-group row">
+		    <label class="col-sm-2">Signer Name</label>
+		    <input type="text" class="form-control col-sm-6" placeholder="Signer Name" name="USER_FULLNAME">
+		  </div>
+		  <div class="form-group row">
+			<label class="col-sm-2">Email address</label>
+			<input type="email" class="form-control col-sm-6" placeholder="Signer Email" name="USER_EMAIL">
+		  </div>
+		  <div class="form-group row">
+			<label class="col-sm-2">Receipt Number</label>
+			<input type="text" class="form-control col-sm-6" placeholder="Receipt Number" name="RECEIPT_NUMBER">
+		  </div>
+		  <div class="form-group row">
+			<label class="col-sm-2">Commission Amount</label>
+			<input type="text" class="form-control col-sm-6" placeholder="Commission" name="AMOUNT">
+		  </div>
+		  <div class="form-group row">
+			<label class="col-sm-2">Phone Number</label>
+			<input type="text" class="form-control col-sm-6" placeholder="Phone Number" name="PHONE_NUMBER">
+		  </div>
+		  <button type="submit" class="btn btn-primary">Sign Receipt by Template</button>
+		</form>
+	</div>
+
+</body>
+
+</html>

@@ -1,0 +1,21 @@
+{
+  "name": "docusign-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "docusign.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node docusign.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "docusign-esign": "^5.2.0",
+    "dot-env": "0.0.1",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "moment": "^2.24.0",
+    "num-words": "^1.0.1"
+  }
+}
